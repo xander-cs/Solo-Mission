@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C07C5A0F2405B1D80039FF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C5A0E2405B1D80039FF0C /* AppDelegate.swift */; };
+		C07C5A112405B1D80039FF0C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C07C5A102405B1D80039FF0C /* GameScene.sks */; };
+		C07C5A132405B1D80039FF0C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C07C5A122405B1D80039FF0C /* Actions.sks */; };
+		C07C5A152405B1D80039FF0C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C5A142405B1D80039FF0C /* GameScene.swift */; };
+		C07C5A172405B1D80039FF0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C5A162405B1D80039FF0C /* GameViewController.swift */; };
+		C07C5A1A2405B1D80039FF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07C5A182405B1D80039FF0C /* Main.storyboard */; };
+		C07C5A1C2405B1DF0039FF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07C5A1B2405B1DF0039FF0C /* Assets.xcassets */; };
+		C07C5A1F2405B1DF0039FF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07C5A1D2405B1DF0039FF0C /* LaunchScreen.storyboard */; };
+		C07C5A2A2405B1E00039FF0C /* Solo_MissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C5A292405B1E00039FF0C /* Solo_MissionTests.swift */; };
+		C07C5A352405B1E00039FF0C /* Solo_MissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C5A342405B1E00039FF0C /* Solo_MissionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07C5A262405B1E00039FF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07C5A032405B1D80039FF0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07C5A0A2405B1D80039FF0C;
+			remoteInfo = "Solo Mission";
+		};
+		C07C5A312405B1E00039FF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07C5A032405B1D80039FF0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07C5A0A2405B1D80039FF0C;
+			remoteInfo = "Solo Mission";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C07C5A0B2405B1D80039FF0C /* Solo Mission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solo Mission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07C5A0E2405B1D80039FF0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07C5A102405B1D80039FF0C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C07C5A122405B1D80039FF0C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C07C5A142405B1D80039FF0C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C07C5A162405B1D80039FF0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C07C5A192405B1D80039FF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07C5A1B2405B1DF0039FF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07C5A1E2405B1DF0039FF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C07C5A202405B1DF0039FF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07C5A252405B1E00039FF0C /* Solo MissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07C5A292405B1E00039FF0C /* Solo_MissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo_MissionTests.swift; sourceTree = "<group>"; };
+		C07C5A2B2405B1E00039FF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07C5A302405B1E00039FF0C /* Solo MissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07C5A342405B1E00039FF0C /* Solo_MissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo_MissionUITests.swift; sourceTree = "<group>"; };
+		C07C5A362405B1E00039FF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07C5A082405B1D80039FF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C5A222405B1E00039FF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C5A2D2405B1E00039FF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07C5A022405B1D80039FF0C = {
+			isa = PBXGroup;
+			children = (
+				C07C5A0D2405B1D80039FF0C /* Solo Mission */,
+				C07C5A282405B1E00039FF0C /* Solo MissionTests */,
+				C07C5A332405B1E00039FF0C /* Solo MissionUITests */,
+				C07C5A0C2405B1D80039FF0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07C5A0C2405B1D80039FF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07C5A0B2405B1D80039FF0C /* Solo Mission.app */,
+				C07C5A252405B1E00039FF0C /* Solo MissionTests.xctest */,
+				C07C5A302405B1E00039FF0C /* Solo MissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07C5A0D2405B1D80039FF0C /* Solo Mission */ = {
+			isa = PBXGroup;
+			children = (
+				C07C5A0E2405B1D80039FF0C /* AppDelegate.swift */,
+				C07C5A102405B1D80039FF0C /* GameScene.sks */,
+				C07C5A122405B1D80039FF0C /* Actions.sks */,
+				C07C5A142405B1D80039FF0C /* GameScene.swift */,
+				C07C5A162405B1D80039FF0C /* GameViewController.swift */,
+				C07C5A182405B1D80039FF0C /* Main.storyboard */,
+				C07C5A1B2405B1DF0039FF0C /* Assets.xcassets */,
+				C07C5A1D2405B1DF0039FF0C /* LaunchScreen.storyboard */,
+				C07C5A202405B1DF0039FF0C /* Info.plist */,
+			);
+			path = "Solo Mission";
+			sourceTree = "<group>";
+		};
+		C07C5A282405B1E00039FF0C /* Solo MissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07C5A292405B1E00039FF0C /* Solo_MissionTests.swift */,
+				C07C5A2B2405B1E00039FF0C /* Info.plist */,
+			);
+			path = "Solo MissionTests";
+			sourceTree = "<group>";
+		};
+		C07C5A332405B1E00039FF0C /* Solo MissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C07C5A342405B1E00039FF0C /* Solo_MissionUITests.swift */,
+				C07C5A362405B1E00039FF0C /* Info.plist */,
+			);
+			path = "Solo MissionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07C5A0A2405B1D80039FF0C /* Solo Mission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07C5A392405B1E00039FF0C /* Build configuration list for PBXNativeTarget "Solo Mission" */;
+			buildPhases = (
+				C07C5A072405B1D80039FF0C /* Sources */,
+				C07C5A082405B1D80039FF0C /* Frameworks */,
+				C07C5A092405B1D80039FF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solo Mission";
+			productName = "Solo Mission";
+			productReference = C07C5A0B2405B1D80039FF0C /* Solo Mission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07C5A242405B1E00039FF0C /* Solo MissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07C5A3C2405B1E00039FF0C /* Build configuration list for PBXNativeTarget "Solo MissionTests" */;
+			buildPhases = (
+				C07C5A212405B1E00039FF0C /* Sources */,
+				C07C5A222405B1E00039FF0C /* Frameworks */,
+				C07C5A232405B1E00039FF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07C5A272405B1E00039FF0C /* PBXTargetDependency */,
+			);
+			name = "Solo MissionTests";
+			productName = "Solo MissionTests";
+			productReference = C07C5A252405B1E00039FF0C /* Solo MissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07C5A2F2405B1E00039FF0C /* Solo MissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07C5A3F2405B1E00039FF0C /* Build configuration list for PBXNativeTarget "Solo MissionUITests" */;
+			buildPhases = (
+				C07C5A2C2405B1E00039FF0C /* Sources */,
+				C07C5A2D2405B1E00039FF0C /* Frameworks */,
+				C07C5A2E2405B1E00039FF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07C5A322405B1E00039FF0C /* PBXTargetDependency */,
+			);
+			name = "Solo MissionUITests";
+			productName = "Solo MissionUITests";
+			productReference = C07C5A302405B1E00039FF0C /* Solo MissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07C5A032405B1D80039FF0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Xander Chua";
+				TargetAttributes = {
+					C07C5A0A2405B1D80039FF0C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C07C5A242405B1E00039FF0C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C07C5A0A2405B1D80039FF0C;
+					};
+					C07C5A2F2405B1E00039FF0C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C07C5A0A2405B1D80039FF0C;
+					};
+				};
+			};
+			buildConfigurationList = C07C5A062405B1D80039FF0C /* Build configuration list for PBXProject "Solo Mission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07C5A022405B1D80039FF0C;
+			productRefGroup = C07C5A0C2405B1D80039FF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07C5A0A2405B1D80039FF0C /* Solo Mission */,
+				C07C5A242405B1E00039FF0C /* Solo MissionTests */,
+				C07C5A2F2405B1E00039FF0C /* Solo MissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07C5A092405B1D80039FF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C5A1A2405B1D80039FF0C /* Main.storyboard in Resources */,
+				C07C5A112405B1D80039FF0C /* GameScene.sks in Resources */,
+				C07C5A1C2405B1DF0039FF0C /* Assets.xcassets in Resources */,
+				C07C5A1F2405B1DF0039FF0C /* LaunchScreen.storyboard in Resources */,
+				C07C5A132405B1D80039FF0C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C5A232405B1E00039FF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C5A2E2405B1E00039FF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07C5A072405B1D80039FF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C5A152405B1D80039FF0C /* GameScene.swift in Sources */,
+				C07C5A172405B1D80039FF0C /* GameViewController.swift in Sources */,
+				C07C5A0F2405B1D80039FF0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C5A212405B1E00039FF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C5A2A2405B1E00039FF0C /* Solo_MissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C5A2C2405B1E00039FF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C5A352405B1E00039FF0C /* Solo_MissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07C5A272405B1E00039FF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07C5A0A2405B1D80039FF0C /* Solo Mission */;
+			targetProxy = C07C5A262405B1E00039FF0C /* PBXContainerItemProxy */;
+		};
+		C07C5A322405B1E00039FF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07C5A0A2405B1D80039FF0C /* Solo Mission */;
+			targetProxy = C07C5A312405B1E00039FF0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C07C5A182405B1D80039FF0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07C5A192405B1D80039FF0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07C5A1D2405B1DF0039FF0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07C5A1E2405B1DF0039FF0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07C5A372405B1E00039FF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07C5A382405B1E00039FF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07C5A3A2405B1E00039FF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo Mission/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minecraft.Solo-Mission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07C5A3B2405B1E00039FF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo Mission/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minecraft.Solo-Mission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C07C5A3D2405B1E00039FF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minecraft.Solo-MissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solo Mission.app/Solo Mission";
+			};
+			name = Debug;
+		};
+		C07C5A3E2405B1E00039FF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minecraft.Solo-MissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solo Mission.app/Solo Mission";
+			};
+			name = Release;
+		};
+		C07C5A402405B1E00039FF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minecraft.Solo-MissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Solo Mission";
+			};
+			name = Debug;
+		};
+		C07C5A412405B1E00039FF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minecraft.Solo-MissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Solo Mission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07C5A062405B1D80039FF0C /* Build configuration list for PBXProject "Solo Mission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C5A372405B1E00039FF0C /* Debug */,
+				C07C5A382405B1E00039FF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07C5A392405B1E00039FF0C /* Build configuration list for PBXNativeTarget "Solo Mission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C5A3A2405B1E00039FF0C /* Debug */,
+				C07C5A3B2405B1E00039FF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07C5A3C2405B1E00039FF0C /* Build configuration list for PBXNativeTarget "Solo MissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C5A3D2405B1E00039FF0C /* Debug */,
+				C07C5A3E2405B1E00039FF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07C5A3F2405B1E00039FF0C /* Build configuration list for PBXNativeTarget "Solo MissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C5A402405B1E00039FF0C /* Debug */,
+				C07C5A412405B1E00039FF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07C5A032405B1D80039FF0C /* Project object */;
+}
